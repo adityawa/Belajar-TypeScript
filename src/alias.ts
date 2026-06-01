@@ -1,6 +1,7 @@
 export type Category={
     id:number;
     Nama:string;
+    readonly kode:string;
 }
 
 export type Product={
@@ -12,7 +13,8 @@ export type Product={
 
 const category :Category={
     id:1,
-    Nama:"Samsung s20"
+    Nama:"Samsung s20",
+    kode:"S20"
 };
 
 const product : Product={
